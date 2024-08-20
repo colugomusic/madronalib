@@ -36,6 +36,7 @@
 #endif
 
 #include <float.h>
+#include <cstdint>
 
 #pragma once
 
