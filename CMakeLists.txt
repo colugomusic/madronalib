@@ -5,10 +5,8 @@ add_library(madronalib::madronalib ALIAS madronalib)
 target_sources(madronalib PUBLIC
 	FILE_SET HEADERS
 	BASE_DIRS
-		${CMAKE_CURRENT_SOURCE_DIR}/external/sse2neon
 		${CMAKE_CURRENT_SOURCE_DIR}/source
 	FILES
-		${CMAKE_CURRENT_SOURCE_DIR}/external/sse2neon/sse2neon.h
 		${CMAKE_CURRENT_SOURCE_DIR}/source/app/MLPlatform.h
 		${CMAKE_CURRENT_SOURCE_DIR}/source/DSP/MLDSPBuffer.h
 		${CMAKE_CURRENT_SOURCE_DIR}/source/DSP/MLDSPFilters.h
